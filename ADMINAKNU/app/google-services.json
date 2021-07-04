@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "42283774103",
+    "project_id": "adikavi-nannaya-university",
+    "storage_bucket": "adikavi-nannaya-university.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:42283774103:android:a5b87eeeb2295b33f3f9d2",
+        "android_client_info": {
+          "package_name": "com.example.adminaknu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "42283774103-fiu6hgnn4vnmc3rjvlc3pansfqtctgog.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTD5jkBvoDGAIRGiq5A7tlPsIi2UeJ7lk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "42283774103-fiu6hgnn4vnmc3rjvlc3pansfqtctgog.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
