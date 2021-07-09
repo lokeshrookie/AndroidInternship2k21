@@ -3,6 +3,8 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:id="@+id/idLLScore"
     >
 
     <TextView
@@ -13,9 +15,10 @@
         android:gravity="center"
         android:layout_margin="10dp"
         android:padding="3dp"
-        android:text="Your Score is "
+        android:text="Your Score is"
         android:textAlignment="center"
         android:textAllCaps="false"
+        android:id="@+id/idTVScore"
         android:textSize="20sp"
         />
 
@@ -25,7 +28,6 @@
         android:id="@+id/idbtnRestart"
         android:layout_margin="20dp"
         android:textColor="@color/white"
-
         android:text="Restart Quiz"
         android:textAllCaps="false"/>
 
