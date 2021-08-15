@@ -124,6 +124,9 @@ public class MainActivity extends AppCompatActivity {
         quizModelArrayList.add(new QuizModel("Which component is NOT a part of Android Architecture?", "Android Framework",  "libraries", "Linux Kernal","Android Document","Android Document"));
         quizModelArrayList.add(new QuizModel("What is APTT?", "Android Asset Processing Tool",  "Android Asset Providing Tool", "Android Asset Packing Tool","Android Asset Packing Technique","Android Asset Packing Tool"));
         quizModelArrayList.add(new QuizModel("Adb stands for?", "Android Drive Bridge",  "Android Debug Bridge", "Android Destroy Bridge","Android Destroy Bridge","Android Drive Bridge"));
+        
         //we can add even more questions. Only 10 question will be randomly selected for the qiuiz everything.
+
+
     }
 }
