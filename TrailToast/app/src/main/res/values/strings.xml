@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TrailToast</string>
+    <string name="text1">Text!</string>
+    <string name="text2">Text2</string>
+    <string name = "scrollview">THis is the parahraph.  this will be inside the scroll view . this must be so long. so that this will look beautiful.</string>
+    <string name="image_description">This is an image</string>
+    <string name="button">Activity2</string>
+</resources>
+

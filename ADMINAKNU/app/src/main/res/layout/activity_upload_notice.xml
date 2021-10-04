@@ -83,11 +83,12 @@
             android:layout_marginTop="16dp"
 
             android:layout_height="400dp">
+
             <ImageView
+                android:id="@+id/noticeImageView"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:id="@+id/noticeImageView"/>
+                android:layout_height="396dp"
+                android:scaleType="centerCrop" />
 
         </com.google.android.material.card.MaterialCardView>
 

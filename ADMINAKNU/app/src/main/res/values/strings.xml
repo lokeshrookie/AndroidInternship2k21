@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ADMIN AKNU</string>
+    <string name="buttonuploadnotice">Button</string>
+    <string name="please_select_an_mage_to_upload">Please select an mage to upload</string>
 </resources>
