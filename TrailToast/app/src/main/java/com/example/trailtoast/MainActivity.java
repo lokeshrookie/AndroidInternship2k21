@@ -28,7 +28,8 @@ public class MainActivity extends AppCompatActivity {
         tv2 = findViewById(R.id.tv2);
 //        tv2.setOnClickListener(v -> Toast.makeText(MainActivity.this, "This is second textview", Toast.LENGTH_SHORT).show());
 //       button.setOnClickListener(View );
-        View viewById = button.findViewById(activity_main);
+
+
         button.setOnClickListener(v -> Toast.makeText(MainActivity.this, "This is button", Toast.LENGTH_SHORT).show());
     }
 
