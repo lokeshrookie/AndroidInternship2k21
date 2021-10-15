@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "42283774103",
-    "project_id": "adikavi-nannaya-university",
-    "storage_bucket": "adikavi-nannaya-university.appspot.com"
+    "project_number": "838710107833",
+    "project_id": "my-college-9bed6",
+    "storage_bucket": "my-college-9bed6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:42283774103:android:a5b87eeeb2295b33f3f9d2",
+        "mobilesdk_app_id": "1:838710107833:android:c031272b69ab6f4d26c568",
         "android_client_info": {
           "package_name": "com.example.adminaknu"
         }
       },
       "oauth_client": [
         {
-          "client_id": "42283774103-fiu6hgnn4vnmc3rjvlc3pansfqtctgog.apps.googleusercontent.com",
+          "client_id": "838710107833-djchvcl4q4hfrjvcvfftnq78gqo2s132.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCTD5jkBvoDGAIRGiq5A7tlPsIi2UeJ7lk"
+          "current_key": "AIzaSyBUvQcpOhgnR_D8dc8L_-S-MyYovuCY19E"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "42283774103-fiu6hgnn4vnmc3rjvlc3pansfqtctgog.apps.googleusercontent.com",
+              "client_id": "838710107833-djchvcl4q4hfrjvcvfftnq78gqo2s132.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

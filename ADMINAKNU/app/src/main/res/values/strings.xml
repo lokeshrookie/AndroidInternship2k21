@@ -2,4 +2,11 @@
     <string name="app_name">ADMIN AKNU</string>
     <string name="buttonuploadnotice">Button</string>
     <string name="please_select_an_mage_to_upload">Please select an mage to upload</string>
+    <string name="select_image">Select Image</string>
+    <string name="title">Title</string>
+    <string name="upload_notice">Upload Notice</string>
+    <string name="select_and_image_from_gallery">Select and Image from gallery.</string>
+    <string name="upload_ebook">Upload Ebook</string>
+    <string name="click_to_update_faculty">Click to update Faculty</string>
+    <string name="update_faculty">Update Faculty</string>
 </resources>
