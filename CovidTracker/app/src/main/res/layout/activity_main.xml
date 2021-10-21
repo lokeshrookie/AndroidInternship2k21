@@ -55,7 +55,7 @@
                     android:id="@+id/cpp"
                     android:layout_marginTop="20dp"
                     app:ccp_textSize="12sp">
-<!--coundtry-->
+
                 </com.hbb20.CountryCodePicker>
 
 
