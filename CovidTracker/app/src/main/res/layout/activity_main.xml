@@ -52,7 +52,7 @@
                     app:ccp_showFullName="false"
                     android:background="@drawable/country_code_drawable"
                     android:padding="5dp"
-                    android:id="@+id/cpp"
+                    android:id="@+id/ccp"
                     android:layout_marginTop="20dp"
                     app:ccp_textSize="12sp">
 
@@ -317,7 +317,7 @@
                             android:textStyle="bold"
                             android:textSize="12sp"
                             android:text="@string/number"
-                            android:id="@+id/activecase"
+                            android:id="@+id/totalactive"
                             android:textColor="@color/black"
                             android:layout_weight="1">
 
