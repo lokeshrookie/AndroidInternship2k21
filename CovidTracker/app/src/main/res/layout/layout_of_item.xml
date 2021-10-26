@@ -31,7 +31,6 @@
                 android:id="@+id/countryname"
                 android:textSize="15sp"
                 android:layout_weight="1">
-
             </TextView>
 
             <TextView
