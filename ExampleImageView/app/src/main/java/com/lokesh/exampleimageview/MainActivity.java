@@ -14,9 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         iv.findViewById(R.id.imageView);
-
     }
-
     public void next(View view) {
         Intent i = new Intent(MainActivity.this,MainActivity2.class);
         startActivity(i);
