@@ -1,21 +1,25 @@
-package com.lokesh.twoactivities;
+package com.lokesh.exampleimageview;
+
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+
 public class MainActivity extends AppCompatActivity {
-//    ImageView iv =  findViewById(R.id.imageView3);
+    ImageView iv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        iv.setImageResource(R.drawable.uce);
-//        iv.animate();
+        iv.findViewById(R.id.imageView);
+
     }
-    public void Second(View view) {
-        Intent i = new Intent(getApplicationContext(),ActivityTwo.class);
+
+    public void next(View view) {
+        Intent i = new Intent(MainActivity.this,MainActivity2.class);
         startActivity(i);
     }
 }
+
