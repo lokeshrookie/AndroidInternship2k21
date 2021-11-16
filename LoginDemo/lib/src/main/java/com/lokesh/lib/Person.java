@@ -8,6 +8,7 @@ public class Person {
     private int age;
     private String name;
     private  double salary;
+    int no = 5;
     Person(){}
 
     public int getAge() {
@@ -35,7 +36,6 @@ public class Person {
     public double getSalary() {
         return salary;
     }
-
     public void setSalary(double salary) {
         this.salary = salary;
     }

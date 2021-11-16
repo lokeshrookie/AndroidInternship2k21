@@ -1,6 +1,7 @@
 package com.lokesh.lib;
 
 public class Employee extends  Person {
+    int no = 6;
     public Employee() {
     }
 
@@ -18,7 +19,6 @@ public class Employee extends  Person {
     public int getAge() {
         return super.getAge() ;
     }
-
 
 
     @Override
