@@ -24,9 +24,28 @@ public class MainActivity extends AppCompatActivity {
         requestQueue = Volley.newRequestQueue(this);
 
 
-        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,
+//        JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,
+//                "https://jsonplaceholder.typicode.com/todos/1", null,
+//                new Response.Listener<JSONObject>(){
+//                    @Override
+//                    public void onResponse(JSONObject response) {
+//                        Log.d("JSON", "onResponse: " + response);
+//
+//                    }
+//                },new Response.ErrorListener(){
+//            @Override
+//            public void onErrorResponse(VolleyError error) {
+//                Log.d("Error", "onErrorResponse: " + error);
+//            }
+//        });
+
+        // above code can be enhanced by using lambda expressions (->): Response.Listener and ErrorLIstener.
+
+         JsonObjectRequest jsonObjectRequest = new JsonObjectRequest(Request.Method.GET,
                 "https://jsonplaceholder.typicode.com/todos/1", null,
-                response -> Log.d("JSON", "onResponse: " + response), error -> Log.d("Error", "onErrorResponse: " + error));
+                 response -> Log.d("JSON", "onResponse: " + response),
+                 error -> Log.d("Error", "onErrorResponse: " + error));
+
 
         requestQueue.add(jsonObjectRequest);
     }
